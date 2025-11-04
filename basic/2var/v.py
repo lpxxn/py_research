@@ -70,6 +70,8 @@ if __name__ == '__main__':
 # ✅ 用 None 作为默认值，在函数内部创建新对象
 # 这个规则适用于所有函数，不只是 __init__  v1.py里有详细的例子
 
+#  有问题的写法（有默认值 + 可变对象）如果不写默认值也没有问题 f1(x): x.append(a) return x
+
 print("*"*20)
 class Company:
     def __init__(self, name, staffs=None):
