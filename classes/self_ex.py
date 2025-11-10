@@ -25,3 +25,8 @@ print(Person.__dict__)
 print(f'dir()比__dict__更完整, 只显示实例属性，没有属性的值')
 print(dir(s1))
 print(dir(Person))
+
+
+class A:
+    value = {}
+    a = []
